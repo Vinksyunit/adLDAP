@@ -1,7 +1,7 @@
 {
-    "name": "adldap/adldap",
+    "name": "vinksyunit/adldap",
     "type": "library",
-    "description": "A PHP LDAP Library for Active Directory Manipulation",
+    "description": "A PHP LDAP Library for Active Directory Manipulation (Updated By Vinks Yunit)",
     "keywords": [
         "active directory",
         "ldap",
@@ -9,10 +9,15 @@
     ],
     "license": "LGPL-2.1",
     "support": {
-        "issues": "https://github.com/adldap/adLDAP/issues",
-        "source": "https://github.com/adldap/adLDAP"
+        "issues": "https://github.com/Vinksyunit/adLDAP/issues",
+        "source": "https://github.com/Vinksyunit/adLDAP"
     },
     "authors": [
+        {
+            "name": "Vincent Demonchy",
+            "email": "vinksyunit@hotmail.fr",
+            "role": "Developer"
+        },
         {
             "name": "Richard Hyland",
             "email": "adldap@richardhyland.com",
@@ -30,7 +35,7 @@
         }
     ],
     "require": {
-        "php": ">=5.4.0",
+        "php": ">=7.0.0",
         "ext-ldap": "*"
     },
     "require-dev": {
